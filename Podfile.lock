@@ -1,0 +1,34 @@
+PODS:
+  - BerTlv (0.1.4)
+  - OMGHTTPURLRQ/UserAgent (3.2.0)
+  - PaynetEasyReader (0.2.11):
+    - BerTlv (~> 0.1.4)
+    - RemoteLogger (= 0.1.2)
+    - TDOAuth (~> 1.0)
+  - RemoteLogger (0.1.2)
+  - TDOAuth (1.1.3):
+    - OMGHTTPURLRQ/UserAgent
+
+DEPENDENCIES:
+  - PaynetEasyReader (from `git@github.com:payneteasy/PaynetEasyReader.git`, tag `0.2.11`)
+
+EXTERNAL SOURCES:
+  PaynetEasyReader:
+    :git: git@github.com:payneteasy/PaynetEasyReader.git
+    :tag: 0.2.11
+
+CHECKOUT OPTIONS:
+  PaynetEasyReader:
+    :git: git@github.com:payneteasy/PaynetEasyReader.git
+    :tag: 0.2.11
+
+SPEC CHECKSUMS:
+  BerTlv: f36e41fdec4329ee1edde586427756e06f344814
+  OMGHTTPURLRQ: 1e54807cb7d5dbb506926e53498e1e9ac5720c79
+  PaynetEasyReader: 9ee0885dd28dc13db26c936c57090afce4169eec
+  RemoteLogger: 60d4d44af2c921e33a482dfac7f555269c794d49
+  TDOAuth: 82474f45874759a094034b9454c75153062f6771
+
+PODFILE CHECKSUM: b6d288540ece2e77b60df417c7dd4bbf3e6ca827
+
+COCOAPODS: 1.1.0.rc.2
